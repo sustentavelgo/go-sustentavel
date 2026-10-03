@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="pt-BR"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261002-05-536c453","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoSustentável | Logística Reversa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --forest: #123c2b;
+      --leaf: #2f7d4e;
+      --lime: #b9dd67;
+      --mist: #eef5ec;
+      --ink: #163127;
+      --sand: #f7f5ec;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 92px;
+    }
+
+    body {
+      width: 100%;
+      margin: 0;
+      font-family: "Work Sans", sans-serif;
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+
+    .headline-font { font-family: "Fraunces", serif; }
+
+    .site-header {
+      transition: background-color .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+
+    .site-header.is-scrolled {
+      background: rgba(255, 255, 255, .96);
+      box-shadow: 0 10px 28px rgba(18, 60, 43, .1);
+      border-color: rgba(18, 60, 43, .08);
+    }
+
+    .nav-link {
+      position: relative;
+      color: #315344;
+      font-size: .87rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+      transition: color .2s ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -7px;
+      left: 0;
+      height: 2px;
+      background: var(--leaf);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .2s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus-visible { color: var(--leaf); }
+
+    .nav-link:hover::after,
+    .nav-link:focus-visible::after { transform: scaleX(1); }
+
+    .organic-cut {
+      border-radius: 42% 58% 50% 50% / 38% 42% 58% 62%;
+    }
+
+    .hero-orbit {
+      position: absolute;
+      width: 460px;
+      height: 460px;
+      border: 1px solid rgba(185, 221, 103, .42);
+      border-radius: 999px;
+      animation: breathe 6s ease-in-out infinite;
+    }
+
+    .hero-orbit::after {
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      right: 55px;
+      top: 18px;
+      border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 0 9px rgba(185, 221, 103, .12);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: .12s; }
+    .delay-2 { transition-delay: .24s; }
+    .delay-3 { transition-delay: .36s; }
+
+    .step-card {
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .step-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 18px 32px rgba(18, 60, 43, .12);
+    }
+
+    .grain {
+      background-image: radial-gradient(rgba(255,255,255,.13) .65px, transparent .65px);
+      background-size: 7px 7px;
+    }
+
+    .focus-ring:focus-visible {
+      outline: 3px solid #b9dd67;
+      outline-offset: 3px;
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); opacity: .75; }
+      50% { transform: scale(1.06); opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script src="/_sdk/b443124ed7f67435.editing_sdk.js" type="text/javascript" integrity="sha512-oLX1dpTmN2mZumhKQc0okubrUJ8MqA6c5fM5NHln6+9t8KpYrcElyL7NOV7dV6pLkMWSzWZRFAI+WLGRVrl64A=="></script>
+  <script src="/_sdk/ab4336f91e694f96.resizing_sdk.js" type="text/javascript" integrity="sha512-cxmeUrBrNlwwLr+tEu/iwM5F3boeK4qDMoH3QjUPqJptkO5NkaDVhQvyIHIn+3EflI5/uubWzkSA78B1tCswgA=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(255, 255, 255);">
+  <header class="site-header fixed inset-x-0 top-0 z-50 border-b border-transparent" id="site-header">
+   <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-4 lg:px-8"><a href="#inicio" class="focus-ring flex items-center gap-3 rounded-md" aria-label="Ir para o início"> <span class="flex h-10 w-10 items-center justify-center rounded-full bg-[#123c2b] text-[#b9dd67]" aria-hidden="true"> <i data-lucide="recycle" class="h-5 w-5"></i> </span> <span class="leading-none"> <strong data-template-id="brand-name" class="canva-text block text-lg font-extrabold tracking-tight" style="color: rgb(18, 60, 43); font-weight: 800; font-style: normal; font-size: 18px;">GoSustentável</strong> <span data-template-id="brand-tagline" class="canva-text mt-1 block text-[10px] font-bold uppercase tracking-[.16em]" style="color: rgb(47, 125, 78); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.1rem;">Logística Reversa</span> </span> </a>
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Navegação principal"><a class="nav-link focus-ring rounded-sm" href="#sobre">Sobre</a> <a class="nav-link focus-ring rounded-sm" href="#como-funciona">Como funciona</a> <a class="nav-link focus-ring rounded-sm" href="#diferenciais">Diferenciais</a> <a class="nav-link focus-ring rounded-sm" href="#contato">Contato</a>
+    </nav><a data-template-id="header-cta" class="canva-button focus-ring hidden rounded-full px-5 py-3 text-sm font-bold transition-transform hover:-translate-y-0.5 lg:inline-flex" href="mailto:contato@gosustentavel.com.br" style="background: rgb(18, 60, 43); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Fale com a gente</a> <button id="menu-toggle" class="focus-ring inline-flex h-11 w-11 items-center justify-center rounded-full border border-[#cbdac9] text-[#123c2b] lg:hidden" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-menu"> <i data-lucide="menu" class="h-5 w-5"></i> </button>
+   </div>
+   <nav id="mobile-menu" class="hidden border-t border-[#dce8d9] bg-white px-5 py-5 shadow-lg lg:hidden" aria-label="Navegação mobile">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4"><a class="focus-ring rounded-sm text-sm font-bold text-[#315344]" href="#sobre">Sobre</a> <a class="focus-ring rounded-sm text-sm font-bold text-[#315344]" href="#como-funciona">Como funciona</a> <a class="focus-ring rounded-sm text-sm font-bold text-[#315344]" href="#diferenciais">Diferenciais</a> <a class="focus-ring rounded-sm text-sm font-bold text-[#315344]" href="#contato">Contato</a> <a data-template-id="mobile-cta" class="canva-button focus-ring mt-1 rounded-full px-5 py-3 text-center text-sm font-bold" href="mailto:contato@gosustentavel.com.br" style="background: rgb(18, 60, 43); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Fale com a gente</a>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section id="inicio" class="grain relative overflow-hidden bg-[#123c2b] pt-32">
+    <div class="absolute -left-20 top-36 h-56 w-56 rounded-full bg-[#2f7d4e] opacity-30 blur-3xl"></div>
+    <div class="absolute right-0 top-8 h-80 w-80 rounded-full bg-[#b9dd67] opacity-10 blur-3xl"></div>
+    <div class="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-5 pb-20 lg:grid-cols-[1.02fr_.98fr] lg:px-8 lg:pb-24">
+     <div class="max-w-2xl">
+      <p data-template-id="hero-eyebrow" class="canva-tag reveal mb-5 inline-flex rounded-full border border-[#b9dd67]/40 bg-[#b9dd67]/10 px-4 py-2 text-xs font-bold uppercase tracking-[.16em]" style="background: rgba(185, 221, 103, 0.1); color: rgb(215, 239, 152); font-weight: 700; font-style: normal; font-size: 12px; letter-spacing: 0.1rem;">Soluções para um ciclo mais responsável</p>
+      <h1 data-template-id="hero-title" class="canva-text headline-font reveal delay-1 max-w-xl text-4xl font-semibold leading-[1.08] sm:text-5xl lg:text-6xl" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 32px; line-height: 1.08;">Logística reversa que transforma descarte em impacto positivo.</h1>
+      <p data-template-id="hero-description" class="canva-text reveal delay-2 mt-6 max-w-xl text-base leading-7 sm:text-lg" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.6;">A GoSustentável conecta sua operação a uma gestão de resíduos mais eficiente, rastreável e comprometida com o futuro.</p>
+      <div class="reveal delay-3 mt-8 flex flex-col gap-3 sm:flex-row"><a data-template-id="hero-primary-cta" class="canva-button focus-ring inline-flex items-center justify-center gap-2 rounded-full px-6 py-4 text-sm font-bold transition-transform hover:-translate-y-0.5" href="#contato" style="background: rgb(185, 221, 103); color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 16px;">Conheça nossas soluções</a> <a data-template-id="hero-secondary-cta" class="canva-button focus-ring inline-flex items-center justify-center gap-2 rounded-full border px-6 py-4 text-sm font-bold transition-colors" href="#como-funciona" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Entenda o processo</a>
+      </div>
+      <dl class="reveal delay-3 mt-11 grid max-w-lg grid-cols-3 gap-4 border-t border-white/15 pt-6">
+       <div>
+        <dt data-template-id="metric-one-value" class="canva-text text-2xl font-extrabold" style="color: rgb(185, 221, 103); font-weight: 800; font-style: normal; font-size: 24px;">100%</dt>
+        <dd data-template-id="metric-one-label" class="canva-text mt-1 text-xs leading-4" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 12px;">rastreável</dd>
+       </div>
+       <div>
+        <dt data-template-id="metric-two-value" class="canva-text text-2xl font-extrabold" style="color: rgb(185, 221, 103); font-weight: 800; font-style: normal; font-size: 24px;">360°</dt>
+        <dd data-template-id="metric-two-label" class="canva-text mt-1 text-xs leading-4" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 12px;">visão da operação</dd>
+       </div>
+       <div>
+        <dt data-template-id="metric-three-value" class="canva-text text-2xl font-extrabold" style="color: rgb(185, 221, 103); font-weight: 800; font-style: normal; font-size: 24px;">1 só</dt>
+        <dd data-template-id="metric-three-label" class="canva-text mt-1 text-xs leading-4" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 12px;">parceiro sustentável</dd>
+       </div>
+      </dl>
+     </div>
+     <div class="reveal relative mx-auto w-full max-w-lg lg:max-w-none">
+      <div class="hero-orbit left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 lg:block"></div>
+      <div class="organic-cut relative overflow-hidden border-[10px] border-white/10 shadow-2xl"><img data-template-id="hero-image" class="canva-image h-[370px] w-full object-cover sm:h-[460px]" loading="lazy" src="https://images.pexels.com/photos/6170157/pexels-photo-6170157.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1280" alt="Caixas de papelão com símbolos de reciclagem empilhadas em ambiente logístico">
+       <div class="absolute inset-0 bg-gradient-to-t from-[#123c2b]/70 via-transparent to-transparent"></div>
+       <div data-template-id="hero-image-caption" class="canva-banner absolute bottom-5 left-5 right-5 rounded-2xl p-4 backdrop-blur-sm" style="background: rgba(18, 60, 43, 0.82);">
+        <p data-template-id="hero-image-caption-title" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 14px;">Do retorno à transformação</p>
+        <p data-template-id="hero-image-caption-text" class="canva-text mt-1 text-xs leading-5" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 12px;">Uma cadeia reversa pensada para gerar valor ambiental e operacional.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="sobre" class="bg-[#f7f5ec] py-20 lg:py-28">
+    <div class="mx-auto grid w-full max-w-7xl gap-12 px-5 lg:grid-cols-[.85fr_1.15fr] lg:px-8">
+     <div class="reveal">
+      <p data-template-id="about-eyebrow" class="canva-tag text-xs font-extrabold uppercase tracking-[.18em]" style="color: rgb(47, 125, 78); font-weight: 800; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">O desafio</p>
+      <h2 data-template-id="about-title" class="canva-text headline-font mt-4 max-w-md text-4xl font-semibold leading-tight" style="color: rgb(18, 60, 43); font-weight: 600; font-style: normal; font-size: 24px; line-height: 1.15;">Resíduos não precisam ser o fim da jornada.</h2>
+     </div>
+     <div class="reveal delay-1">
+      <p data-template-id="about-description" class="canva-text max-w-2xl text-lg leading-8" style="color: rgb(49, 83, 68); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.65;">Empresas responsáveis precisam ir além do descarte. Com a logística reversa, materiais retornam à cadeia produtiva de forma organizada, segura e ambientalmente correta.</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2">
+       <article data-template-id="about-card-one" class="canva-card rounded-2xl p-6" style="background: rgb(255, 255, 255);"><span class="mb-5 flex h-11 w-11 items-center justify-center rounded-full bg-[#d9ebbc] text-[#2f7d4e]" aria-hidden="true"> <i data-lucide="package-check" class="h-5 w-5"></i> </span>
+        <h3 data-template-id="about-card-one-title" class="canva-text font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 16px;">Mais controle</h3>
+        <p data-template-id="about-card-one-text" class="canva-text mt-2 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Acompanhe cada etapa da coleta, triagem e destinação dos materiais.</p>
+       </article>
+       <article data-template-id="about-card-two" class="canva-card rounded-2xl p-6" style="background: rgb(255, 255, 255);"><span class="mb-5 flex h-11 w-11 items-center justify-center rounded-full bg-[#d9ebbc] text-[#2f7d4e]" aria-hidden="true"> <i data-lucide="leaf" class="h-5 w-5"></i> </span>
+        <h3 data-template-id="about-card-two-title" class="canva-text font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 16px;">Mais impacto positivo</h3>
+        <p data-template-id="about-card-two-text" class="canva-text mt-2 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Transforme compromissos ambientais em resultados mensuráveis para sua marca.</p>
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="como-funciona" class="bg-white py-20 lg:py-28">
+    <div class="mx-auto w-full max-w-7xl px-5 lg:px-8">
+     <div class="reveal max-w-2xl">
+      <p data-template-id="process-eyebrow" class="canva-tag text-xs font-extrabold uppercase tracking-[.18em]" style="color: rgb(47, 125, 78); font-weight: 800; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">Como funciona</p>
+      <h2 data-template-id="process-title" class="canva-text headline-font mt-4 text-4xl font-semibold leading-tight" style="color: rgb(18, 60, 43); font-weight: 600; font-style: normal; font-size: 24px; line-height: 1.15;">Uma operação reversa simples, inteligente e transparente.</h2>
+      <p data-template-id="process-description" class="canva-text mt-5 text-lg leading-8" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.6;">Estruturamos cada ponto do fluxo para que a sua empresa tenha segurança, dados e tranquilidade para fazer a coisa certa.</p>
+     </div>
+     <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+      <article class="step-card reveal rounded-2xl border border-[#dce8d9] bg-white p-6"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-[#123c2b] text-sm font-extrabold text-[#b9dd67]">01</span>
+       <h3 data-template-id="step-one-title" class="canva-text mt-8 font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 17px;">Diagnóstico</h3>
+       <p data-template-id="step-one-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Entendemos sua operação, materiais e objetivos de sustentabilidade.</p>
+      </article>
+      <article class="step-card reveal delay-1 rounded-2xl border border-[#dce8d9] bg-white p-6"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-[#123c2b] text-sm font-extrabold text-[#b9dd67]">02</span>
+       <h3 data-template-id="step-two-title" class="canva-text mt-8 font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 17px;">Planejamento</h3>
+       <p data-template-id="step-two-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Desenhamos o fluxo de coleta e os melhores destinos para cada resíduo.</p>
+      </article>
+      <article class="step-card reveal delay-2 rounded-2xl border border-[#dce8d9] bg-white p-6"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-[#123c2b] text-sm font-extrabold text-[#b9dd67]">03</span>
+       <h3 data-template-id="step-three-title" class="canva-text mt-8 font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 17px;">Operação</h3>
+       <p data-template-id="step-three-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Coletamos, triamos e encaminhamos materiais com parceiros qualificados.</p>
+      </article>
+      <article class="step-card reveal delay-3 rounded-2xl border border-[#dce8d9] bg-white p-6"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-[#123c2b] text-sm font-extrabold text-[#b9dd67]">04</span>
+       <h3 data-template-id="step-four-title" class="canva-text mt-8 font-bold" style="color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 17px;">Evidências</h3>
+       <p data-template-id="step-four-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.55;">Entregamos relatórios e comprovantes para dar visibilidade ao impacto.</p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="bg-[#eef5ec] py-12 lg:py-16">
+    <div class="mx-auto grid w-full max-w-7xl items-center gap-8 px-5 lg:grid-cols-2 lg:px-8">
+     <div class="reveal overflow-hidden rounded-[2rem]"><img data-template-id="positioning-image" class="canva-image h-72 w-full object-cover lg:h-80" loading="lazy" src="https://images.pexels.com/photos/12725398/pexels-photo-12725398.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1280" alt="Mãos segurando uma embalagem sustentável de papelão em ambiente externo">
+     </div>
+     <div class="reveal delay-1 lg:px-8">
+      <p data-template-id="positioning-eyebrow" class="canva-tag text-xs font-extrabold uppercase tracking-[.18em]" style="color: rgb(47, 125, 78); font-weight: 800; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">Circularidade na prática</p>
+      <h2 data-template-id="positioning-title" class="canva-text headline-font mt-4 text-3xl font-semibold leading-tight" style="color: rgb(18, 60, 43); font-weight: 600; font-style: normal; font-size: 24px; line-height: 1.15;">Sustentabilidade que acompanha o caminho completo.</h2>
+      <p data-template-id="positioning-text" class="canva-text mt-5 text-base leading-7" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">A logística reversa aproxima empresas, consumidores e recicladores em uma rede que reduz desperdícios e fortalece escolhas mais conscientes.</p>
+     </div>
+    </div>
+   </section>
+   <section id="diferenciais" class="bg-[#123c2b] py-20 text-white lg:py-28">
+    <div class="mx-auto w-full max-w-7xl px-5 lg:px-8">
+     <div class="reveal grid gap-8 lg:grid-cols-2 lg:items-end">
+      <div>
+       <p data-template-id="benefits-eyebrow" class="canva-tag text-xs font-extrabold uppercase tracking-[.18em]" style="color: rgb(185, 221, 103); font-weight: 800; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">Por que GoSustentável</p>
+       <h2 data-template-id="benefits-title" class="canva-text headline-font mt-4 max-w-xl text-4xl font-semibold leading-tight" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 24px; line-height: 1.15;">Mais que coleta: inteligência para a sua jornada sustentável.</h2>
+      </div>
+      <p data-template-id="benefits-description" class="canva-text max-w-xl text-base leading-7" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">Combinamos gestão ambiental e operação logística para tornar seus compromissos viáveis no dia a dia.</p>
+     </div>
+     <div class="mt-12 grid gap-4 md:grid-cols-3">
+      <article data-template-id="benefit-one" class="canva-card reveal rounded-2xl p-7" style="background: rgb(27, 77, 56);"><i data-lucide="map-pinned" class="h-7 w-7 text-[#b9dd67]" aria-hidden="true"></i>
+       <h3 data-template-id="benefit-one-title" class="canva-text mt-8 text-lg font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Rastreabilidade</h3>
+       <p data-template-id="benefit-one-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.6;">Visibilidade da origem ao destino, com dados para apoiar decisões responsáveis.</p>
+      </article>
+      <article data-template-id="benefit-two" class="canva-card reveal delay-1 rounded-2xl p-7" style="background: rgb(27, 77, 56);"><i data-lucide="route" class="h-7 w-7 text-[#b9dd67]" aria-hidden="true"></i>
+       <h3 data-template-id="benefit-two-title" class="canva-text mt-8 text-lg font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Operação sob medida</h3>
+       <p data-template-id="benefit-two-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.6;">Fluxos adaptados à realidade da sua empresa, região e volume de materiais.</p>
+      </article>
+      <article data-template-id="benefit-three" class="canva-card reveal delay-2 rounded-2xl p-7" style="background: rgb(27, 77, 56);"><i data-lucide="file-check-2" class="h-7 w-7 text-[#b9dd67]" aria-hidden="true"></i>
+       <h3 data-template-id="benefit-three-title" class="canva-text mt-8 text-lg font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Comprovação de impacto</h3>
+       <p data-template-id="benefit-three-text" class="canva-text mt-3 text-sm leading-6" style="color: rgb(220, 235, 220); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.6;">Relatórios claros para demonstrar resultados ambientais e fortalecer sua estratégia ESG.</p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section id="contato" class="bg-[#f7f5ec] py-20 lg:py-28">
+    <div class="mx-auto w-full max-w-7xl px-5 lg:px-8">
+     <div data-template-id="contact-panel" class="canva-panel relative overflow-hidden rounded-[2rem] p-7 sm:p-10 lg:p-14" style="background: rgb(47, 125, 78);">
+      <div class="absolute -right-16 -top-20 h-64 w-64 rounded-full bg-[#b9dd67]/20 blur-2xl"></div>
+      <div class="relative grid gap-10 lg:grid-cols-[1fr_.75fr] lg:items-end">
+       <div class="reveal">
+        <p data-template-id="contact-eyebrow" class="canva-tag text-xs font-extrabold uppercase tracking-[.18em]" style="color: rgb(215, 239, 152); font-weight: 800; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">Vamos conversar?</p>
+        <h2 data-template-id="contact-title" class="canva-text headline-font mt-4 max-w-xl text-4xl font-semibold leading-tight" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 24px; line-height: 1.15;">Sua operação pode gerar menos resíduos e mais futuro.</h2>
+        <p data-template-id="contact-text" class="canva-text mt-5 max-w-xl text-base leading-7" style="color: rgb(226, 240, 223); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">Fale com a GoSustentável e descubra como implementar uma logística reversa eficiente para o seu negócio.</p><a data-template-id="contact-cta" class="canva-button focus-ring mt-8 inline-flex items-center gap-2 rounded-full px-6 py-4 text-sm font-bold transition-transform hover:-translate-y-0.5" href="mailto:contato@gosustentavel.com.br" style="background: rgb(185, 221, 103); color: rgb(18, 60, 43); font-weight: 700; font-style: normal; font-size: 16px;">Enviar e-mail</a>
+       </div>
+       <address class="reveal delay-1 not-italic">
+        <ul class="space-y-4">
+         <li><a class="focus-ring flex items-center gap-4 rounded-xl bg-white/10 p-4 transition-colors hover:bg-white/15" href="tel:+5547999999999"> <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#b9dd67] text-[#123c2b]"><i data-lucide="phone" class="h-4 w-4" aria-hidden="true"></i></span> <span> <span data-template-id="contact-phone-label" class="canva-text block text-xs font-bold uppercase tracking-wider" style="color: rgb(215, 239, 152); font-weight: 700; font-style: normal; font-size: 11px; letter-spacing: 0.08rem;">Telefone</span> <span data-template-id="contact-phone-value" class="canva-text mt-1 block text-sm" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">(47) 99999-9999</span> </span> </a></li>
+         <li><a class="focus-ring flex items-center gap-4 rounded-xl bg-white/10 p-4 transition-colors hover:bg-white/15" href="mailto:contato@gosustentavel.com.br"> <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#b9dd67] text-[#123c2b]"><i data-lucide="mail" class="h-4 w-4" aria-hidden="true"></i></span> <span> <span data-template-id="contact-email-label" class="canva-text block text-xs font-bold uppercase tracking-wider" style="color: rgb(215, 239, 152); font-weight: 700; font-style: normal; font-size: 11px; letter-spacing: 0.08rem;">E-mail</span> <span data-template-id="contact-email-value" class="canva-text mt-1 block text-sm" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">contato@gosustentavel.com.br</span> </span> </a></li>
+         <li><a class="focus-ring flex items-center gap-4 rounded-xl bg-white/10 p-4 transition-colors hover:bg-white/15" href="https://www.instagram.com/gosustentavel/" target="_blank" rel="noopener noreferrer"> <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#b9dd67] text-[#123c2b]"><i data-lucide="instagram" class="h-4 w-4" aria-hidden="true"></i></span> <span> <span data-template-id="contact-instagram-label" class="canva-text block text-xs font-bold uppercase tracking-wider" style="color: rgb(215, 239, 152); font-weight: 700; font-style: normal; font-size: 11px; letter-spacing: 0.08rem;">Instagram</span> <span data-template-id="contact-instagram-value" class="canva-text mt-1 block text-sm" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">@gosustentavel</span> </span> </a></li>
+        </ul></address>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer data-template-id="footer-section" class="canva-footer" style="background: rgb(255, 255, 255);">
+   <div class="mx-auto flex w-full max-w-7xl flex-col gap-4 px-5 py-7 text-sm sm:flex-row sm:items-center sm:justify-between lg:px-8">
+    <p data-template-id="footer-copy" class="canva-text" style="color: rgb(84, 112, 97); font-weight: 400; font-style: normal; font-size: 14px;">© 2026 GoSustentável. Logística reversa para um futuro mais circular.</p><a data-template-id="footer-link" class="canva-link focus-ring rounded-sm font-bold" href="https://www.instagram.com/gosustentavel/" target="_blank" rel="noopener noreferrer" style="color: rgb(47, 125, 78); font-weight: 700; font-style: normal; font-size: 14px;">Siga @gosustentavel</a>
+   </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      lucide.createIcons();
+
+      const menuButton = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const header = document.getElementById("site-header");
+
+      function toggleMenu() {
+        const isOpen = !mobileMenu.classList.contains("hidden");
+        mobileMenu.classList.toggle("hidden", isOpen);
+        menuButton.setAttribute("aria-expanded", String(!isOpen));
+        menuButton.setAttribute("aria-label", isOpen ? "Abrir menu de navegação" : "Fechar menu de navegação");
+      }
+
+      menuButton.addEventListener("click", toggleMenu);
+
+      mobileMenu.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          mobileMenu.classList.add("hidden");
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Abrir menu de navegação");
+        });
+      });
+
+      function updateHeader() {
+        header.classList.toggle("is-scrolled", window.scrollY > 12);
+      }
+
+      updateHeader();
+      window.addEventListener("scroll", updateHeader, { passive: true });
+
+      const revealItems = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.14 });
+
+      revealItems.forEach(function (item) {
+        revealObserver.observe(item);
+      });
+    });
+  </script>
+ 
+</body></html>
